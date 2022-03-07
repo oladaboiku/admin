@@ -7,17 +7,63 @@ function WidgetSm() {
     <div className="widgetSm">
         <span className="widgetSmTitle">New Join Members</span>
         <ul className="widgetSmList">
-            <li className="widgetSmListIte">
-                <img src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
+            <li className="widgetSmListItem">
+                <img src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetSmImg"/>
                 <div className="widgetSmUser">
                     <span className="widgetSmUsername">Anna Keller</span>
-                    <span className="widgetSmUserTitle">Software Engineer </span>
+                    <span className="widgetSmUserTitle">Software Engineer</span>
                 </div>
+        <button className="widgetSmbutton">
+            <Visibility className="widgetSmIcon"/>
+            Display
+        </button>
+            </li>
+            <li className="widgetSmListItem">
+                <img src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetSmImg"/>
+                <div className="widgetSmUser">
+                    <span className="widgetSmUsername">Anna Keller</span>
+                    <span className="widgetSmUserTitle">Software Engineer</span>
+                </div>
+        <button className="widgetSmbutton">
+            <Visibility className="widgetSmIcon"/>
+            Display
+        </button>
+            </li>
+            <li className="widgetSmListItem">
+                <img src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetSmImg"/>
+                <div className="widgetSmUser">
+                    <span className="widgetSmUsername">Anna Keller</span>
+                    <span className="widgetSmUserTitle">Software Engineer</span>
+                </div>
+        <button className="widgetSmbutton">
+            <Visibility className="widgetSmIcon"/>
+            Display
+        </button>
+            </li>
+            <li className="widgetSmListItem">
+                <img src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetSmImg"/>
+                <div className="widgetSmUser">
+                    <span className="widgetSmUsername">Anna Keller</span>
+                    <span className="widgetSmUserTitle">Software Engineer</span>
+                </div>
+        <button className="widgetSmbutton">
+            <Visibility className="widgetSmIcon"/>
+            Display
+        </button>
+            </li>
+            <li className="widgetSmListItem">
+                <img src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetSmImg"/>
+                <div className="widgetSmUser">
+                    <span className="widgetSmUsername">Anna Keller</span>
+                    <span className="widgetSmUserTitle">Software Engineer</span>
+                </div>
+        <button className="widgetSmbutton">
+            <Visibility className="widgetSmIcon"/>
+            Display
+        </button>
             </li>
         </ul>
-        <button>
-            <Visibility/>
-        </button>
+        
     </div>
   )
 }
