@@ -13,9 +13,8 @@ function App() {
       <div className="container">
         <Sidebar />
         <Routes>
-          <Route exact path="/" element={<Home/>}>
+          <Route exact path="/" element={<Home/>}/>
           <Route path="/users" element={<UserList/>}/>
-          </Route>
         </Routes>
       </div>
     </BrowserRouter>
