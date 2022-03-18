@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import "./user.css";
 import {  PermIdentity, CalendarToday, PhoneAndroid, MailOutline, LocationSearching, Publish } from "@mui/icons-material";
 
@@ -7,8 +8,10 @@ function User() {
     <div className="user">
       <div className="userTitleContainer">
         <h1 className="useTitle">Edit User</h1>
+        <Link to="/newUser"> 
         <button className="userAddButton">Create</button>
-      </div>
+        </Link>
+       </div>
       <div className="userContainer">
         <div className="userShow">
           <div className="userShowTop">
@@ -19,7 +22,7 @@ function User() {
             />
             <div className="userShowTopTitle">
               <span className="userShowUserName">Anna Becker</span>
-              <span className="userShowUserTitle">Software engineer</span>
+              <span className="userShowUserTitle">Software Engineer</span>
             </div>
           </div>
           <div className="userShowBottom">
