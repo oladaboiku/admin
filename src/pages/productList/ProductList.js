@@ -5,10 +5,10 @@ import { DeleteOutline } from "@mui/icons-material";
 import { productRows } from "../../DummyData";
 import { Link } from "react-router-dom";
 
-function productList() {
+function ProductList() {
   const [data, setData] = useState(productRows);
 
-  const handleDelete = (id) =>cd
+  const handleDelete = (id) => {
     setData(data.filter((item) => item.id !== id));
   };
 
@@ -20,7 +20,7 @@ function productList() {
       width: 200,
       renderCell: (params) => {
         return (
-          <div className="productListUser">
+          <div className="productListItem">
             <img src={params.row.img} alt="" className="productListImg" />
             {params.row.name}
           </div>
@@ -50,8 +50,7 @@ function productList() {
             </Link>
             <DeleteOutline
               className="productListDelete"
-              onClick={() => handleDelete(params.row.id)}
-            />
+              onClick={() => handleDelete(params.row.id)} />
           </>
         );
       },
@@ -70,4 +69,4 @@ function productList() {
   );
 }
 
-export default productList;
+export default ProductList;
