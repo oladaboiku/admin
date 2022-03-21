@@ -49,18 +49,18 @@ export const userdata = [
   },
 ];
 
-export const productdata = [
+export const productData = [
   {
     name: "Jan",
-    "Active User": 4000,
+    "Sales": 4000,
   },
   {
     name: "Feb",
-    "Active User": 3000,
+    "Sales": 3000,
   },
   {
     name: "Mar",
-    "Active User": 2000,
+    "Sales": 2000,
   },
 ];
 
