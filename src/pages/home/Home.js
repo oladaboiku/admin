@@ -17,7 +17,7 @@ function Home() {
         dataKey="Active User"
       />
       <div className="homeWidgets">
-        <WidgetSm />
+        <WidgetSm /> 
         <WidgetLg />
       </div>
     </div>

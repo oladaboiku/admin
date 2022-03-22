@@ -60,7 +60,7 @@ export const productData = [
   },
   {
     name: "Mar",
-    "Sales": 2000,
+    "Sales": 5000,
   },
 ];
 
